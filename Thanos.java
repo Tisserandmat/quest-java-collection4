@@ -56,9 +56,6 @@ public class Thanos {
         System.out.println(party.containsValue(begonia));
         for (Hero hero : party.keySet()) {
             Flower flow = party.get(hero);
-            if (flow.getName().equals("begonia")) {
-                System.out.println(false);
-            }
                 System.out.println(flow.getName());
 
         }
